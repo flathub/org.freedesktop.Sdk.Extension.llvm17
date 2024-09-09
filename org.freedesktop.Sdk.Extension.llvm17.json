@@ -73,7 +73,11 @@
         "*"
       ],
       "sources": [
-        "llvm-stage1-sources.json"
+        "llvm-stage1-sources.json",
+        {
+          "type": "patch",
+          "path": "patches/clang-gcc14.patch"
+        }
       ]
     },
     {
